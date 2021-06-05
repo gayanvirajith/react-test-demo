@@ -7,6 +7,7 @@ const wrapper = shallow(<App />);
 describe("<App />", () => {
   test("renders learn react link", () => {
 let a;
+console.log(`a`, a)
     expect(wrapper.find(".App").text()).toBe("Hello world");
     console.log(wrapper.debug());
   });
