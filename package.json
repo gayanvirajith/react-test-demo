@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "pre-commit": "lint-staged",
+    "precommit": "lint-staged",
     "pretty": "prettier --write ./src"
   },
   "lint-staged": {
@@ -32,7 +33,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "precommit": "lint-staged"
     }
   },
   "eslintConfig": {
