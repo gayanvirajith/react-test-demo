@@ -16,7 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pre-commit": "lint-staged",
     "precommit": "lint-staged",
     "pretty": "prettier --write ./src"
   },
@@ -30,11 +29,6 @@
     "singleQuote": true,
     "semi": false,
     "trailingComma": "none"
-  },
-  "husky": {
-    "hooks": {
-      "precommit": "lint-staged"
-    }
   },
   "eslintConfig": {
     "extends": [
