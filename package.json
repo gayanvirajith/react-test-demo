@@ -17,7 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
-    "pretty": "prettier --write ./src"
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
