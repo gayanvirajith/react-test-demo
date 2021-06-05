@@ -1,7 +1,7 @@
 {
-    "extends": ["react-app", "plugin:prettier/recommended"],
-    "rules": {
-        "singleQuote": false,
-        "trailingComma": 1
-    }
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "singleQuote": false,
+    "trailingComma": 1
+  }
 }
