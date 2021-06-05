@@ -1,14 +1,14 @@
 // test file
-import { shallow, mount, render } from "enzyme";
-import App from "./App";
+import { shallow, mount, render } from 'enzyme'
+import App from './App'
 
-const wrapper = shallow(<App />);
+const wrapper = shallow(<App />)
 
-describe("<App />", () => {
-  test("renders learn react link", () => {
-let a;
-console.log(`a`, a)
-    expect(wrapper.find(".App").text()).toBe("Hello world");
-    console.log(wrapper.debug());
-  });
-});
+describe('<App />', () => {
+  test('renders learn react link', () => {
+    let a
+    console.log(`a`, a)
+    expect(wrapper.find('.App').text()).toBe('Hello world')
+    console.log(wrapper.debug())
+  })
+})

@@ -15,13 +15,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged",
+    "pretty": "prettier --write ./src"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
       "prettier --write",
       "git add"
     ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "none"
   },
   "husky": {
     "hooks": {
