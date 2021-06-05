@@ -16,10 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged",
-    "lint": "eslint ./",
-    "lint-fix": "eslint ./ --fix",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -55,8 +53,7 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
+    "husky": "^3.1.0",
     "prettier": "^2.3.1"
   },
   "husky": {
