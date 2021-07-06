@@ -1,11 +1,12 @@
 import './App.css'
-let a = '1'
-let b
+import Greeting from './components/Greeting'
 
 function App() {
   return (
     <div className="App">
-      <div className="app-header">Hello world</div>
+      <div className="app-header">
+        <Greeting />
+      </div>
       <button>Click</button>
     </div>
   )

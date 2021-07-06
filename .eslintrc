@@ -1,7 +1,15 @@
 {
-  "extends": ["react-app", "plugin:prettier/recommended"],
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
   "rules": {
-    "singleQuote": false,
-    "trailingComma": 1
+    "no-console": "warn",
+    "semi": 0
   }
 }
